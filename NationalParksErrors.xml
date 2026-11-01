@@ -5,8 +5,7 @@
      (3) the Phone element is missing on Yellowstone
      (4) the Address element of Olympic has no closing tag (left empty here)
      (5) two Name elements are given for Acadia -->
-<NationalPark xmlns="http://cse445.asu.edu/nparks"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://cse445.asu.edu/nparks https://crackparrot11.github.io/cse445_a4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
