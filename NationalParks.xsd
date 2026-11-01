@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!-- Q1.1  NationalParks.xsd : the XML Schema for NationalParks.xml
-     Element order at each level follows Figure 1 of the assignment (left to right).
-     Phone may repeat (maxOccurs unbounded).
-     NearestAirport is the REQUIRED attribute (carried on Address).
-     Rating is the IMPLIED optional attribute (carried on NationalPark).
-     Per the course FAQ, plain xs:string is used for the phone and street fields,
-     and xs:int is used for the street Number. -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+     Element order at each level follows Figure 1 (left to right).
+     Phone may repeat. NearestAirport is the REQUIRED attribute (on Address).
+     Rating is the IMPLIED optional attribute (on NationalPark).
+     Per the course FAQ: xs:string for phone/street fields, xs:int for Number. -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://cse445.asu.edu/nparks"
+           attributeFormDefault="unqualified" elementFormDefault="qualified">
 
   <xs:element name="NationalParks">
     <xs:complexType>
