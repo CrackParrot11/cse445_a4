@@ -4,8 +4,7 @@
      NearestAirport (the required attribute) is set on every Address; Rating (the
      implied attribute) is set on most but not all parks; some parks have >1 Phone. -->
 <NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:schemaLocation="http://www.w3.org/2001/XMLSchema NationalParks.xsd"
-               xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+               xsi:noNamespaceSchemaLocation="https://crackparrot11.github.io/cse445_a4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
