@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Q1.3  NationalParksErrors.xml : NationalParks.xml with the five injected faults.
+     (1) the root element is NationalPark instead of NationalParks
+     (2) the required attribute NearestAirport is missing on the Address of Rocky Mountain
+     (3) the Phone element is missing on Yellowstone
+     (4) the Address element of Olympic has no closing tag (it is left empty here)
+     (5) two Name elements are given for Acadia -->
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://www.w3.org/2001/XMLSchema NationalParks.xsd"
+              xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
+    <Address NearestAirport="FlagStaff">
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Zion</Name>
+    <Phone>435-675-7766</Phone>
+    <Phone>888-297-2757</Phone>
+    <Address NearestAirport="StGeorge">
+      <Number>345</Number>
+      <Street>UT-9</Street>
+      <City>Springdale</City>
+      <State>UT</State>
+      <Zip>87297</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.7">
+    <Name>Rocky Mountain</Name>
+    <Phone>970-682-8967</Phone>
+    <Address>
+      <Number>10001</Number>
+      <Street>Cades Drive</Street>
+      <City>Estes Park</City>
+      <State>CO</State>
+      <Zip>80517</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Yosemite</Name>
+    <Phone>209-369-3552</Phone>
+    <Phone>209-369-3553</Phone>
+    <Address NearestAirport="Fresno">
+      <Number>1</Number>
+      <Street>Highland Avenue</Street>
+      <City>El Portal</City>
+      <State>CA</State>
+      <Zip>95315</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Death Valley</Name>
+    <Phone>760-845-2763</Phone>
+    <Phone>760-922-2390</Phone>
+    <Address NearestAirport="LasVegas">
+      <Number>365</Number>
+      <Street>CA-190</Street>
+      <City>Death Valley</City>
+      <State>CA</State>
+      <Zip>96267</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Yellowstone</Name>
+    <Address NearestAirport="Bozeman">
+      <Number>22</Number>
+      <Street>North Entrance Road</Street>
+      <City>Gardiner</City>
+      <State>MT</State>
+      <Zip>90017</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark>
+    <Name>Glacier</Name>
+    <Phone>406-854-7715</Phone>
+    <Address NearestAirport="GreatFalls">
+      <Number>357</Number>
+      <Street>US-2</Street>
+      <City>East Glacier</City>
+      <State>MT</State>
+      <Zip>87307</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.5">
+    <Name>Everglades</Name>
+    <Phone>304-441-7669</Phone>
+    <Address NearestAirport="Miami">
+      <Number>3210</Number>
+      <Street>State Road 9336</Street>
+      <City>Homestead</City>
+      <State>FL</State>
+      <Zip>33775</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.7">
+    <Name>Olympic</Name>
+    <Phone>360-596-6952</Phone>
+    <Address NearestAirport="Seattle"/>
+  </NationalPark>
+  <NationalPark Rating="4.7">
+    <Name>Acadia</Name>
+    <Name>Acadia NP</Name>
+    <Phone>207-288-2301</Phone>
+    <Phone>207-667-3369</Phone>
+    <Address NearestAirport="Bangor">
+      <Number>25</Number>
+      <Street>Route 3</Street>
+      <City>Bar Harbor</City>
+      <State>ME</State>
+      <Zip>01609</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.8">
+    <Name>Arches</Name>
+    <Phone>435-719-2315</Phone>
+    <Address NearestAirport="GrandJunction">
+      <Number>1</Number>
+      <Street>UT-191</Street>
+      <City>Moab</City>
+      <State>UT</State>
+      <Zip>84532</Zip>
+    </Address>
+  </NationalPark>
+  <NationalPark Rating="4.7">
+    <Name>Badlands</Name>
+    <Phone>605-431-7052</Phone>
+    <Address NearestAirport="RapidCity">
+      <Number>20000</Number>
+      <Street>I-90</Street>
+      <City>Interior</City>
+      <State>SD</State>
+      <Zip>90118</Zip>
+    </Address>
+  </NationalPark>
+</NationalPark>
