@@ -3,11 +3,10 @@
      (1) the root element is NationalPark instead of NationalParks
      (2) the required attribute NearestAirport is missing on the Address of Rocky Mountain
      (3) the Phone element is missing on Yellowstone
-     (4) the Address element of Olympic has no closing tag (it is left empty here)
+     (4) the Address element of Olympic has no closing tag (left empty here)
      (5) two Name elements are given for Acadia -->
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://www.w3.org/2001/XMLSchema NationalParks.xsd"
-              xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+              xsi:noNamespaceSchemaLocation="https://crackparrot11.github.io/cse445_a4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
